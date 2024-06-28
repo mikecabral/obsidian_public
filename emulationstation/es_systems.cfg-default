@@ -1,0 +1,248 @@
+```xml
+<!-- This is the EmulationStation Systems configuration file.
+All systems must be contained within the <systemList> tag. -->
+
+<systemList>
+  
+<system>
+<name>arcade</name>
+<fullname>arcade</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\arcade</path>
+<extension>.7z .cue .fba .iso .zip .7Z .CUE .FBA .ISO .ZIP .CHD</extension>
+<command>J:\EmulationStation\.emulationstation\systems\mame\mame64.exe %BASENAME% -rompath J:\EmulationStation\.emulationstation\Retroarch\roms\arcade -inipath J:\EmulationStation\.emulationstation\systems\mame</command>
+<platform>arcade</platform>
+<theme>mame</theme>
+</system>
+
+<system>
+<name>atari2600</name>
+<fullname>Atari 2600</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\atari2600</path>
+<extension>.a26 .bin .rom .A26 .BIN .ROM .ZIP</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\stella_libretro.dll "%ROM_RAW%"</command>
+<platform>atari2600</platform>
+<theme>atari2600</theme>
+</system>
+
+<system>
+<name>atari7800</name>
+<fullname>Atari 7800 ProSystem</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\atari7800</path>
+<extension>.a78 .bin .A78 .BIN .ZIP</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\prosystem_libretro.dll "%ROM_RAW%"</command>
+<platform>atari7800</platform>
+<theme>atari7800</theme>
+</system>
+
+<system>
+<name>atarilynx</name>
+<fullname>Atari Lynx</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\atarilynx</path>
+<extension>.lnx .LNX .ZIP</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\handy_libretro.dll "%ROM_RAW%"</command>
+<platform>atarilynx</platform>
+<theme>atarilynx</theme>
+</system>
+
+<system>
+<name>coleco</name>
+<fullname>ColecoVision</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\coleco</path>
+<extension>.bin .col .rom .zip .BIN .COL .ROM .ZIP</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\bluemsx_libretro.dll "%ROM_RAW%"</command>
+<platform>colecovision</platform>
+<theme>colecovision</theme>
+</system>
+
+<system>
+<name>Dreamcast</name>
+<fullname>Sega Dreamcast</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\dreamcast</path>
+<extension> .mds, .MDS, .mdf, .MDF, .bin, .BIN, .cue, .CUE, .cdi, .CDI .gdi .GDI .CHD</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\flycast_libretro.dll "%ROM_RAW%"</command>
+<platform>dreamcast</platform>
+<theme>dreamcast</theme>
+</system>
+
+<system>
+<name>gamegear</name>
+<fullname>Sega Gamegear</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\gamegear</path>
+<extension>.gg .bin .GG .BIN .ZIP</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\gearsystem_libretro.dll "%ROM_RAW%"</command>
+<platform>gamegear</platform>
+<theme>gamegear</theme>
+</system>
+
+<system>
+<name>gb</name>
+<fullname>Game Boy</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\gb</path>
+<extension>.gb .GB .ZIP</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\gambatte_libretro.dll "%ROM_RAW%"</command>
+<platform>gb</platform>
+<theme>gb</theme>
+</system>
+
+<system>
+<name>gbc</name>
+<fullname>Game Boy Color</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\gbc</path>
+<extension>.gbc .GBC .ZIP</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\gambatte_libretro.dll "%ROM_RAW%"</command>
+<platform>gbc</platform>
+<theme>gbc</theme>
+</system>
+
+<system>
+<name>gba</name>
+<fullname>Game Boy Advance</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\gba</path>
+<extension>.gba .ZIP</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\mgba_libretro.dll "%ROM_RAW%"</command>
+<platform>gba</platform>
+<theme>gba</theme>
+</system>
+
+<system>
+<name>mastersystem</name>
+<fullname>Sega Master System</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\mastersystem</path>
+<extension>.sms .bin .SMS .BIN .ZIP</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\genesis_plus_gx_libretro.dll "%ROM_RAW%"</command>
+<platform>mastersystem</platform>
+<theme>mastersystem</theme>
+</system>
+
+<system>
+<name>megadrive</name>
+<fullname>Sega Mega Drive / Genesis</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\megadrive</path>
+<extension>.smd .bin .gen .md .sg .SMD .BIN .GEN .MD .SG .ZIP</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\genesis_plus_gx_libretro.dll "%ROM_RAW%"</command>
+<platform>megadrive</platform>
+<theme>megadrive</theme>
+</system>
+
+<system>
+<name>n64</name>
+<fullname>Nintendo 64</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\n64</path>
+<extension>.v64 .z64 .n64 .V64 .Z64 .N64</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\mupen64plus_libretro.dll "%ROM_RAW%"</command>
+<platform>n64</platform>
+<theme>n64</theme>
+</system>
+
+<system>
+<name>nes</name>
+<fullname>Nintendo Entertainment System</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\nes</path>
+<extension>.nes .NES .ZIP</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\fceumm_libretro.dll "%ROM_RAW%"</command>
+<platform>nes</platform>
+<theme>nes</theme>
+</system>
+
+<system>
+<name>psp</name>
+<fullname>Playstation Portable</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\psp</path>
+<extension>.iso .ISO .cso .CSO</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\ppsspp_libretro.dll "%ROM_RAW%"</command>
+<platform>psp</platform>
+<theme>psp</theme>
+</system>
+
+<system>
+<name>psx</name>
+<fullname>Playstation</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\psx</path>
+<extension>.cue .CUE .CHD .PBP</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\mednafen_psx_libretro.dll "%ROM_RAW%"</command>
+<platform>psx</platform>
+<theme>psx</theme>
+</system>
+
+<system>
+<name>ps2</name>
+<fullname>Playstation 2</fullname>
+<path>~.emulationstation\roms\ps2</path>
+<extension>.iso .ISO .cue .CUE .BIN .bin .mds .MDS</extension>
+<command>%HOMEPATH%.emulationstation\systems\pcsx2\PCSX2\pcsx2.exe "%ROM_RAW%"</command>
+<platform>ps2</platform>
+<theme>ps2</theme>
+</system>
+
+<system>
+<name>pcengine</name>
+<fullname>TurboGrafx 16 (PC Engine)</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\pcengine</path>
+<extension>.pce .zip .cue .PCE .ZIP .CUE</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\mednafen_pce_fast_libretro.dll "%ROM_RAW%"</command>
+<platform>pcengine</platform>
+<theme>pcengine</theme>
+</system>
+
+<system>
+<name>sega32x</name>
+<fullname>Sega 32x</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\sega32x</path>
+<extension>.32x .smd .bin .md .32X .SMD .BIN .MD .ZIP</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\picodrive_libretro.dll "%ROM_RAW%"</command>
+<platform>sega32x</platform>
+<theme>sega32x</theme>
+</system>
+
+<system>
+<name>saturn</name>
+<fullname>Sega Saturn</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\saturn</path>
+<extension>.iso .ISO .CHD</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\yabause_libretro.dll "%ROM_RAW%"</command>
+<platform>saturn</platform>
+<theme>saturn</theme>
+</system>
+
+<system>
+<name>segacd</name>
+<fullname>Sega Mega Drive / Genesis</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\segacd</path>
+<extension>.smd .bin .md .zip .iso .SMD .BIN .MD .ZIP .ISO .CHD</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\genesis_plus_gx_libretro.dll "%ROM_RAW%"</command>
+<platform>segacd</platform>
+<theme>segacd</theme>
+</system>
+
+<system>
+<name>snes</name>
+<fullname>Super Nintendo Entertainment System</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\snes</path>
+<extension>.smc .sfc .SMC .SFC .ZIP</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\snes9x_libretro.dll "%ROM_RAW%"</command>
+<platform>snes</platform>
+<theme>snes</theme>
+</system>
+
+<system>
+<name>wii</name>
+<fullname>Nintendo Wii</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\wii</path>
+<extension>.iso .ISO</extension>
+<command>"J:\EmulationStation\.emulationstation\systems\dolphin\dolphin.exe" -e "%ROM_RAW%"</command>
+<platform>wii</platform>
+<theme>wii</theme>
+</system>
+
+<system>
+<name>virtualboy</name>
+<fullname>Virtual Boy</fullname>
+<path>J:\EmulationStation\.emulationstation\Retroarch\roms\virtualboy</path>
+<extension>.vb .VB .ZIP</extension>
+<command>J:\EmulationStation\.emulationstation\Retroarch\retroarch -L J:\EmulationStation\.emulationstation\Retroarch\cores\mednafen_vb_libretro.dll "%ROM_RAW%"</command>
+<platform>virtualboy</platform>
+<theme>virtualboy</theme>
+</system>
+
+</systemList>
+```

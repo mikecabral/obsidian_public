@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "cdd6846332e69c1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f79951c68632553",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a6d0c3248f9c91f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3555819babd2eb04",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d8a4ed35224c27b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b985c215425d45d4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ab1af6dcc7c3bfac",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "357ef7f01b52089e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "0082cc094d015bf7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7e94efd91ca496ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "607ffad2ab9191f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82474dea5d4332df",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cc9cb07808d237a8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c3251df16fbc407e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "287be22dd6d9ea1a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "7c19c9b4af0ea986",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-projects:Open projects": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "7c19c9b4af0ea986",
+  "lastOpenFiles": [
+    "boilerplates/ansible/deploy-portainer.yaml",
+    "boilerplates/ansible/debian/playbooks/upload-autoupdate.yml",
+    "boilerplates/ansible/debian/playbooks/template/default-inventory",
+    "boilerplates/ansible/debian/playbooks/template/ansible.cfg",
+    "boilerplates/ansible/debian/playbooks/static-ip.yml",
+    "boilerplates/ansible/debian/playbooks/nfs-samba-tools.yml",
+    "boilerplates/ansible/debian/playbooks/k3s/remove_fstab.yml",
+    "boilerplates/ansible/debian/playbooks/k3s/configure_fstab.yml",
+    "boilerplates/ansible/debian/playbooks/cron-autoupdate.yml",
+    "boilerplates/ansible/debian/playbooks/add-public-keys.yml",
+    "boilerplates/ansible/debian/install-wireguard.yaml",
+    "boilerplates/kubernetes/certmanager/templates/certificate.yaml.md",
+    "readystream/share/system/custom.sh.md",
+    "readystream/share/userscripts/config/readystream/mount-zip.md",
+    "readystream/share/userscripts/config/emulationstation/systemlist-online.xml.md",
+    "readystream/share/userscripts/config/emulationstation/systemlist-backup.xml.md",
+    "readystream/share/userscripts/config/emulationstation/systemlist-offline.xml.md",
+    "readystream/share/userscripts/config/readystream/platforms.txt.md",
+    "readystream/share/userscripts/config/readystream/roms/c64/gamelist.xml.md",
+    "readystream/share/userscripts/config/readystream/roms/vic20/gamelist.xml.md",
+    "readystream/share/userscripts/config/readystream/roms/cplus4/gamelist.xml.md",
+    "readystream/share/userscripts/config/readystream/roms/cplus4/Untitled.md",
+    "readystream/share/userscripts/config/readystream/roms/amigacdtv/gamelist.xml.md",
+    "readystream/share/userscripts/config/readystream/roms/amigacd32/gamelist.xml.md",
+    "readystream/share/userscripts/config/readystream/roms/amiga1200/gamelist.xml.md",
+    "readystream/share/userscripts/config/readystream/roms/atarist/gamelist.xml.md",
+    "readystream/share/userscripts/config/readystream/roms/msx2/gamelist.xml.md",
+    "readystream/share/userscripts/config/readystream/roms/msx1/gamelist.xml.md",
+    "readystream/share/userscripts/config/readystream/roms/ngpc/gamelist.xml.md",
+    "readystream/share/userscripts/config/readystream/roms/ngp/gamelist.xml.md",
+    "readystream/share/userscripts/config/readystream/roms/neogeocd/gamelist.xml.md",
+    "readystream/share/userscripts/config/readystream/roms/3do/gamelist.xml.md",
+    "readystream/share/userscripts/config/readystream/roms/cdi/gamelist.xml.md",
+    "readystream/share/userscripts/config/readystream/roms/pcfx/gamelist.xml.md",
+    "readystream/share/userscripts/config/readystream/roms/supergrafx/gamelist.xml.md",
+    "readystream/share/userscripts/config/readystream/roms/pcenginecd/gamelist.xml.md"
+  ]
+}
